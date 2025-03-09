@@ -17,7 +17,7 @@ jobs:
       run: npm install -g surge
 
     - name: Desplegar a Surge.sh
-      run: surge ./ --domain mi-pagina-web-tu-usuario.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./ --domain alinaesther.surge.sh --token ${{ secrets.SURGE_TOKEN }}
       env:
         SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
         
